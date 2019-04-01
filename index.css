@@ -1,0 +1,72 @@
+  body, html, header, .view{
+  height:100%;
+  /* Location of the image */
+
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+
+.mask {
+  padding-top: 300px;
+  font-size: 20px;
+  margin-left: 170px;
+}
+.navbar{
+  text-decoration: none;
+}
+#intro {
+  background-image: url("https://media2.giphy.com/media/bm05ug8lNr6KI/giphy.gif?cid=790b76115c9df950777a7541493ebb75");
+  -background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -O-background-size: cover;
+}
+.main {
+  padding:left;
+  margin-bottom: 100px;
+  display: inline;
+}
+.main {
+  float:right;
+}
+
+ h1{
+  text-align: center;
+  font-size: 100px;
+}
+h1 p{
+  font-size: 100px;
+  color:#48B8D0;
+}
+
+.form{
+ border-radius:150%;
+   margin: 20px 20px;
+   color:#D5D6AA;
+}
+.about me p{
+  color:#D5D6AA;
+  width:30%;
+}
+.img{
+width:40%;
+}
+.fa-whatsapp{
+  color:white;
+  width: 50px;
+  border-radius: 100px;
+  background:green;
+  padding:10px;
+}
